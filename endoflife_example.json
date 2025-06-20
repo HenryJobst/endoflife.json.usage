@@ -1,0 +1,4250 @@
+{
+  "nodejs": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-11T01:17:00+00:00",
+    "result": {
+      "name": "nodejs",
+      "aliases": [
+        "node"
+      ],
+      "label": "Node.js",
+      "category": "framework",
+      "tags": [
+        "framework",
+        "herodevs",
+        "javascript-runtime"
+      ],
+      "versionCommand": "node --version",
+      "identifiers": [
+        {
+          "type": "purl",
+          "id": "pkg:generic/node"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:docker/circleci/node"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:docker/library/node"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:docker/cimg/node"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:docker/bitnami/node"
+        },
+        {
+          "type": "repology",
+          "id": "nodejs"
+        }
+      ],
+      "labels": {
+        "eoas": "Active Support",
+        "discontinued": null,
+        "eol": "Security Support",
+        "eoes": "Commercial Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/nodedotjs.svg",
+        "html": "https://endoflife.date/nodejs",
+        "releasePolicy": "https://nodejs.org/en/about/previous-releases"
+      },
+      "releases": [
+        {
+          "name": "24",
+          "codename": null,
+          "label": "24 (Upcoming LTS)",
+          "releaseDate": "2025-05-06",
+          "isLts": false,
+          "ltsFrom": "2025-10-28",
+          "isEoas": false,
+          "eoasFrom": "2026-10-20",
+          "isEol": false,
+          "eolFrom": "2028-04-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "24.2.0",
+            "date": "2025-06-09",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md#24.2.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "23",
+          "codename": null,
+          "label": "23",
+          "releaseDate": "2024-10-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2025-04-01",
+          "isEol": true,
+          "eolFrom": "2025-06-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "23.11.1",
+            "date": "2025-05-14",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V23.md#23.11.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "22",
+          "codename": null,
+          "label": "22 (LTS)",
+          "releaseDate": "2024-04-24",
+          "isLts": true,
+          "ltsFrom": "2024-10-29",
+          "isEoas": false,
+          "eoasFrom": "2025-10-21",
+          "isEol": false,
+          "eolFrom": "2027-04-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "22.16.0",
+            "date": "2025-05-21",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md#22.16.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "21",
+          "codename": null,
+          "label": "21",
+          "releaseDate": "2023-10-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2024-04-01",
+          "isEol": true,
+          "eolFrom": "2024-06-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "21.7.3",
+            "date": "2024-04-10",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md#21.7.3"
+          },
+          "custom": null
+        },
+        {
+          "name": "20",
+          "codename": null,
+          "label": "20 (LTS)",
+          "releaseDate": "2023-04-18",
+          "isLts": true,
+          "ltsFrom": "2023-10-24",
+          "isEoas": true,
+          "eoasFrom": "2024-10-22",
+          "isEol": false,
+          "eolFrom": "2026-04-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "20.19.2",
+            "date": "2025-05-14",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md#20.19.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "19",
+          "codename": null,
+          "label": "19",
+          "releaseDate": "2022-10-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-04-01",
+          "isEol": true,
+          "eolFrom": "2023-06-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "19.9.0",
+            "date": "2023-04-10",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V19.md#19.9.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "18",
+          "codename": null,
+          "label": "18 (LTS)",
+          "releaseDate": "2022-04-19",
+          "isLts": true,
+          "ltsFrom": "2022-10-25",
+          "isEoas": true,
+          "eoasFrom": "2023-10-18",
+          "isEol": true,
+          "eolFrom": "2025-04-30",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "18.20.8",
+            "date": "2025-03-27",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md#18.20.8"
+          },
+          "custom": null
+        },
+        {
+          "name": "17",
+          "codename": null,
+          "label": "17",
+          "releaseDate": "2021-10-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2022-04-01",
+          "isEol": true,
+          "eolFrom": "2022-06-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "17.9.1",
+            "date": "2022-06-01",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md#17.9.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "16",
+          "codename": null,
+          "label": "16 (LTS)",
+          "releaseDate": "2021-04-20",
+          "isLts": true,
+          "ltsFrom": "2021-10-26",
+          "isEoas": true,
+          "eoasFrom": "2022-10-18",
+          "isEol": true,
+          "eolFrom": "2023-09-11",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "16.20.2",
+            "date": "2023-08-09",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md#16.20.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "15",
+          "codename": null,
+          "label": "15",
+          "releaseDate": "2020-10-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2021-04-01",
+          "isEol": true,
+          "eolFrom": "2021-06-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "15.14.0",
+            "date": "2021-04-06",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md#15.14.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "14",
+          "codename": null,
+          "label": "14 (LTS)",
+          "releaseDate": "2020-04-21",
+          "isLts": true,
+          "ltsFrom": "2020-10-27",
+          "isEoas": true,
+          "eoasFrom": "2021-10-19",
+          "isEol": true,
+          "eolFrom": "2023-04-30",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "14.21.3",
+            "date": "2023-02-16",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md#14.21.3"
+          },
+          "custom": null
+        },
+        {
+          "name": "13",
+          "codename": null,
+          "label": "13",
+          "releaseDate": "2019-10-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2020-04-01",
+          "isEol": true,
+          "eolFrom": "2020-06-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "13.14.0",
+            "date": "2020-04-29",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md#13.14.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "12",
+          "codename": null,
+          "label": "12 (LTS)",
+          "releaseDate": "2019-04-23",
+          "isLts": true,
+          "ltsFrom": "2019-10-21",
+          "isEoas": true,
+          "eoasFrom": "2020-10-20",
+          "isEol": true,
+          "eolFrom": "2022-04-30",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "12.22.12",
+            "date": "2022-04-05",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md#12.22.12"
+          },
+          "custom": null
+        },
+        {
+          "name": "11",
+          "codename": null,
+          "label": "11",
+          "releaseDate": "2018-10-23",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2019-04-01",
+          "isEol": true,
+          "eolFrom": "2019-06-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "11.15.0",
+            "date": "2019-04-30",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md#11.15.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "10",
+          "codename": null,
+          "label": "10 (LTS)",
+          "releaseDate": "2018-04-24",
+          "isLts": true,
+          "ltsFrom": "2018-10-30",
+          "isEoas": true,
+          "eoasFrom": "2020-05-19",
+          "isEol": true,
+          "eolFrom": "2021-04-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "10.24.1",
+            "date": "2021-04-06",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md#10.24.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "9",
+          "codename": null,
+          "label": "9",
+          "releaseDate": "2017-10-31",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2018-06-30",
+          "isEol": true,
+          "eolFrom": "2018-06-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "9.11.2",
+            "date": "2018-06-12",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md#9.11.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "8",
+          "codename": null,
+          "label": "8 (LTS)",
+          "releaseDate": "2017-05-30",
+          "isLts": true,
+          "ltsFrom": "2017-10-31",
+          "isEoas": true,
+          "eoasFrom": "2019-01-01",
+          "isEol": true,
+          "eolFrom": "2019-12-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "8.17.0",
+            "date": "2019-12-17",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md#8.17.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "7",
+          "codename": null,
+          "label": "7",
+          "releaseDate": "2016-10-25",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2017-06-30",
+          "isEol": true,
+          "eolFrom": "2017-06-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "7.10.1",
+            "date": "2017-07-11",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md#7.10.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "6",
+          "codename": null,
+          "label": "6 (LTS)",
+          "releaseDate": "2016-04-26",
+          "isLts": true,
+          "ltsFrom": "2016-10-18",
+          "isEoas": true,
+          "eoasFrom": "2018-04-30",
+          "isEol": true,
+          "eolFrom": "2019-04-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "6.17.1",
+            "date": "2019-04-03",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md#6.17.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "5",
+          "releaseDate": "2015-10-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2016-06-30",
+          "isEol": true,
+          "eolFrom": "2016-06-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "5.12.0",
+            "date": "2016-06-23",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md#5.12.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4",
+          "codename": null,
+          "label": "4 (LTS)",
+          "releaseDate": "2015-09-09",
+          "isLts": true,
+          "ltsFrom": "2015-10-01",
+          "isEoas": true,
+          "eoasFrom": "2017-04-01",
+          "isEol": true,
+          "eolFrom": "2018-04-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "4.9.1",
+            "date": "2018-03-29",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md#4.9.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "3",
+          "codename": null,
+          "label": "3",
+          "releaseDate": "2015-08-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": true,
+          "eolFrom": null,
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.3.1",
+            "date": "2015-09-15",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#3.3.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "2",
+          "codename": null,
+          "label": "2",
+          "releaseDate": "2015-05-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": true,
+          "eolFrom": null,
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.5.0",
+            "date": "2015-07-28",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#2.5.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "1",
+          "codename": null,
+          "label": "1",
+          "releaseDate": "2015-01-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": true,
+          "eolFrom": null,
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.8.4",
+            "date": "2015-07-09",
+            "link": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#1.8.4"
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "vue": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-19T01:16:17+00:00",
+    "result": {
+      "name": "vue",
+      "aliases": [
+        "vuejs"
+      ],
+      "label": "Vue",
+      "category": "framework",
+      "tags": [
+        "framework",
+        "herodevs",
+        "javascript-runtime"
+      ],
+      "versionCommand": "npm list vue",
+      "identifiers": [
+        {
+          "type": "repology",
+          "id": "vue.js"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:npm/vue"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:github/vuejs/vue"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:github/vuejs/core"
+        }
+      ],
+      "labels": {
+        "eoas": "Active Support",
+        "discontinued": null,
+        "eol": "Security Support",
+        "eoes": "Commercial Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/vuedotjs.svg",
+        "html": "https://endoflife.date/vue",
+        "releasePolicy": "https://vuejs.org/about/releases.html"
+      },
+      "releases": [
+        {
+          "name": "3.5",
+          "codename": null,
+          "label": "3.5",
+          "releaseDate": "2024-09-03",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": null,
+          "isEol": false,
+          "eolFrom": null,
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "3.5.17",
+            "date": "2025-06-18",
+            "link": "https://github.com/vuejs/core/releases/tag/v3.5.17"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.4",
+          "codename": null,
+          "label": "3.4",
+          "releaseDate": "2023-12-29",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2024-09-03",
+          "isEol": true,
+          "eolFrom": "2024-09-03",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.4.38",
+            "date": "2024-08-15",
+            "link": "https://github.com/vuejs/core/releases/tag/v3.4.38"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.3",
+          "codename": null,
+          "label": "3.3",
+          "releaseDate": "2023-05-11",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-12-29",
+          "isEol": true,
+          "eolFrom": "2023-12-29",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.3.13",
+            "date": "2023-12-19",
+            "link": "https://github.com/vuejs/core/releases/tag/v3.3.13"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.7",
+          "codename": null,
+          "label": "2.7",
+          "releaseDate": "2022-07-01",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-12-31",
+          "isEol": true,
+          "eolFrom": "2023-12-31",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "2.7.16",
+            "date": "2023-12-24",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.7.16"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.2",
+          "codename": null,
+          "label": "3.2",
+          "releaseDate": "2021-08-09",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-05-11",
+          "isEol": true,
+          "eolFrom": "2023-05-11",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.2.47",
+            "date": "2023-02-02",
+            "link": "https://github.com/vuejs/core/releases/tag/v3.2.47"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.1",
+          "codename": null,
+          "label": "3.1",
+          "releaseDate": "2021-06-07",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2021-08-09",
+          "isEol": true,
+          "eolFrom": "2021-08-09",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.1.5",
+            "date": "2021-07-16",
+            "link": "https://github.com/vuejs/core/releases/tag/v3.1.5"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.0",
+          "codename": null,
+          "label": "3.0",
+          "releaseDate": "2020-09-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2021-06-07",
+          "isEol": true,
+          "eolFrom": "2021-06-07",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.0.11",
+            "date": "2021-04-01",
+            "link": "https://github.com/vuejs/core/releases/tag/v3.0.11"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.6",
+          "codename": null,
+          "label": "2.6",
+          "releaseDate": "2019-02-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2022-07-01",
+          "isEol": true,
+          "eolFrom": "2022-07-01",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "2.6.14",
+            "date": "2021-06-07",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.6.14"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.5",
+          "codename": null,
+          "label": "2.5",
+          "releaseDate": "2017-10-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2019-02-04",
+          "isEol": true,
+          "eolFrom": "2019-02-04",
+          "isEoes": true,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.5.22",
+            "date": "2019-01-11",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.5.22"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.4",
+          "codename": null,
+          "label": "2.4",
+          "releaseDate": "2017-07-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2017-10-13",
+          "isEol": true,
+          "eolFrom": "2017-10-13",
+          "isEoes": true,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.4.4",
+            "date": "2017-09-14",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.4.4"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.3",
+          "codename": null,
+          "label": "2.3",
+          "releaseDate": "2017-04-27",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2017-07-13",
+          "isEol": true,
+          "eolFrom": "2017-07-13",
+          "isEoes": true,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.3.4",
+            "date": "2017-06-08",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.3.4"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.2",
+          "codename": null,
+          "label": "2.2",
+          "releaseDate": "2017-02-26",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2017-04-27",
+          "isEol": true,
+          "eolFrom": "2017-04-27",
+          "isEoes": true,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.2.6",
+            "date": "2017-03-27",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.2.6"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.1",
+          "codename": null,
+          "label": "2.1",
+          "releaseDate": "2016-11-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2017-02-26",
+          "isEol": true,
+          "eolFrom": "2017-02-26",
+          "isEoes": true,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.1.10",
+            "date": "2017-01-17",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.1.10"
+          },
+          "custom": null
+        },
+        {
+          "name": "2.0",
+          "codename": null,
+          "label": "2.0",
+          "releaseDate": "2016-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2016-11-22",
+          "isEol": true,
+          "eolFrom": "2016-11-22",
+          "isEoes": true,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.0.8",
+            "date": "2016-11-20",
+            "link": "https://github.com/vuejs/vue/releases/tag/v2.0.8"
+          },
+          "custom": null
+        },
+        {
+          "name": "1",
+          "codename": null,
+          "label": "1",
+          "releaseDate": "2015-10-27",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": true,
+          "eolFrom": null,
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.0.28",
+            "date": "2016-09-27",
+            "link": "https://github.com/vuejs/vue/releases/tag/v1.0.28"
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "eslint": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-14T01:10:36+00:00",
+    "result": {
+      "name": "eslint",
+      "aliases": [],
+      "label": "ESLint",
+      "category": "app",
+      "tags": [
+        "app",
+        "build-tool",
+        "herodevs",
+        "javascript-runtime"
+      ],
+      "versionCommand": null,
+      "identifiers": [
+        {
+          "type": "repology",
+          "id": "eslint"
+        }
+      ],
+      "labels": {
+        "eoas": "Active Support",
+        "discontinued": null,
+        "eol": "Maintenance Support",
+        "eoes": "Extended Long Term Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/eslint.svg",
+        "html": "https://endoflife.date/eslint",
+        "releasePolicy": "https://eslint.org/version-support/"
+      },
+      "releases": [
+        {
+          "name": "9",
+          "codename": null,
+          "label": "9",
+          "releaseDate": "2024-04-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": null,
+          "isEol": false,
+          "eolFrom": null,
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "9.29.0",
+            "date": "2025-06-13",
+            "link": "https://github.com/eslint/eslint/releases/tag/v9.29.0"
+          },
+          "custom": {
+            "eoesProvider": "Tidelift"
+          }
+        },
+        {
+          "name": "8",
+          "codename": null,
+          "label": "8",
+          "releaseDate": "2021-10-09",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2024-04-05",
+          "isEol": true,
+          "eolFrom": "2024-10-05",
+          "isEoes": false,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "8.57.1",
+            "date": "2024-09-16",
+            "link": "https://github.com/eslint/eslint/releases/tag/v8.57.1"
+          },
+          "custom": {
+            "eoesProvider": "HeroDevs"
+          }
+        },
+        {
+          "name": "7",
+          "codename": null,
+          "label": "7",
+          "releaseDate": "2020-05-08",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2021-10-09",
+          "isEol": true,
+          "eolFrom": "2022-04-09",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "7.32.0",
+            "date": "2021-07-30",
+            "link": "https://github.com/eslint/eslint/releases/tag/v7.32.0"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        },
+        {
+          "name": "6",
+          "codename": null,
+          "label": "6",
+          "releaseDate": "2019-06-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2020-05-08",
+          "isEol": true,
+          "eolFrom": "2020-11-08",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "6.8.0",
+            "date": "2019-12-20",
+            "link": "https://github.com/eslint/eslint/releases/tag/v6.8.0"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "5",
+          "releaseDate": "2018-06-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2019-06-21",
+          "isEol": true,
+          "eolFrom": "2019-12-21",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "5.16.0",
+            "date": "2019-03-30",
+            "link": "https://github.com/eslint/eslint/releases/tag/v5.16.0"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        },
+        {
+          "name": "4",
+          "codename": null,
+          "label": "4",
+          "releaseDate": "2017-06-11",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2018-06-22",
+          "isEol": true,
+          "eolFrom": "2018-12-22",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "4.19.1",
+            "date": "2018-03-22",
+            "link": "https://github.com/eslint/eslint/releases/tag/v4.19.1"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        },
+        {
+          "name": "3",
+          "codename": null,
+          "label": "3",
+          "releaseDate": "2016-07-01",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2017-06-11",
+          "isEol": true,
+          "eolFrom": "2017-12-11",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.19.0",
+            "date": "2017-03-31",
+            "link": "https://github.com/eslint/eslint/releases/tag/v3.19.0"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        },
+        {
+          "name": "2",
+          "codename": null,
+          "label": "2",
+          "releaseDate": "2016-02-12",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2016-07-01",
+          "isEol": true,
+          "eolFrom": "2017-01-01",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "2.13.1",
+            "date": "2016-06-20",
+            "link": "https://github.com/eslint/eslint/releases/tag/v2.13.1"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        },
+        {
+          "name": "1",
+          "codename": null,
+          "label": "1",
+          "releaseDate": "2015-07-31",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2016-02-12",
+          "isEol": true,
+          "eolFrom": "2016-08-12",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.10.3",
+            "date": "2015-12-01",
+            "link": "https://github.com/eslint/eslint/releases/tag/v1.10.3"
+          },
+          "custom": {
+            "eoesProvider": null
+          }
+        }
+      ]
+    }
+  },
+  "pnpm": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-09T00:53:15+00:00",
+    "result": {
+      "name": "pnpm",
+      "aliases": [],
+      "label": "pnpm",
+      "category": "app",
+      "tags": [
+        "app",
+        "build-tool",
+        "javascript-runtime"
+      ],
+      "versionCommand": "pnpm --version",
+      "identifiers": [
+        {
+          "type": "purl",
+          "id": "pkg:npm/pnpm"
+        },
+        {
+          "type": "repology",
+          "id": "pnpm"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "Support",
+        "eoes": null
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/pnpm.svg",
+        "html": "https://endoflife.date/pnpm",
+        "releasePolicy": "https://github.com/pnpm/pnpm/security/policy"
+      },
+      "releases": [
+        {
+          "name": "10",
+          "codename": null,
+          "label": "10",
+          "releaseDate": "2025-01-07",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "10.12.1",
+            "date": "2025-06-08",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v10.12.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "9",
+          "codename": null,
+          "label": "9",
+          "releaseDate": "2024-04-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2026-04-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "9.15.9",
+            "date": "2025-03-10",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v9.15.9"
+          },
+          "custom": null
+        },
+        {
+          "name": "8",
+          "codename": null,
+          "label": "8",
+          "releaseDate": "2023-03-27",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2025-04-30",
+          "isMaintained": false,
+          "latest": {
+            "name": "8.15.9",
+            "date": "2024-07-17",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v8.15.9"
+          },
+          "custom": null
+        },
+        {
+          "name": "7",
+          "codename": null,
+          "label": "7",
+          "releaseDate": "2022-04-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-04-16",
+          "isMaintained": false,
+          "latest": {
+            "name": "7.33.7",
+            "date": "2024-02-15",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v7.33.7"
+          },
+          "custom": null
+        },
+        {
+          "name": "6",
+          "codename": null,
+          "label": "6",
+          "releaseDate": "2021-04-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-03-20",
+          "isMaintained": false,
+          "latest": {
+            "name": "6.35.1",
+            "date": "2022-11-11",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v6.35.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "5",
+          "releaseDate": "2020-05-27",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-04-29",
+          "isMaintained": false,
+          "latest": {
+            "name": "5.18.11",
+            "date": "2021-09-16",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v5.18.11"
+          },
+          "custom": null
+        },
+        {
+          "name": "4",
+          "codename": null,
+          "label": "4",
+          "releaseDate": "2019-10-07",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-04-24",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.14.4",
+            "date": "2020-05-23",
+            "link": "https://github.com/pnpm/pnpm/releases/tag/v4.14.4"
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "java": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-07T15:24:47+00:00",
+    "result": {
+      "name": "oracle-jdk",
+      "aliases": [
+        "oracle-java",
+        "java",
+        "jdk"
+      ],
+      "label": "Oracle JDK",
+      "category": "lang",
+      "tags": [
+        "java-distribution",
+        "lang",
+        "oracle"
+      ],
+      "versionCommand": "java -version",
+      "identifiers": [
+        {
+          "type": "cpe",
+          "id": "cpe:/a:oracle:jdk"
+        },
+        {
+          "type": "cpe",
+          "id": "cpe:2.3:a:oracle:jdk"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "Premier Support",
+        "eoes": "Extended Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/oracle.svg",
+        "html": "https://endoflife.date/oracle-jdk",
+        "releasePolicy": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html"
+      },
+      "releases": [
+        {
+          "name": "24",
+          "codename": null,
+          "label": "24",
+          "releaseDate": "2025-03-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2025-09-16",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "24.0.1",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/24all-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "23",
+          "codename": null,
+          "label": "23",
+          "releaseDate": "2024-09-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2025-03-18",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "23.0.2",
+            "date": "2025-01-21",
+            "link": "https://www.oracle.com/java/technologies/javase/23all-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "22",
+          "codename": null,
+          "label": "22",
+          "releaseDate": "2024-03-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-09-17",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "22.0.2",
+            "date": "2024-07-16",
+            "link": "https://www.oracle.com/java/technologies/javase/22-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "21",
+          "codename": null,
+          "label": "21 (LTS)",
+          "releaseDate": "2023-09-19",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2028-09-30",
+          "isEoes": false,
+          "eoesFrom": "2031-09-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "21.0.7",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/21-0-7-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "20",
+          "codename": null,
+          "label": "20",
+          "releaseDate": "2023-03-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-09-19",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "20.0.2",
+            "date": "2023-07-18",
+            "link": "https://www.oracle.com/java/technologies/javase/20-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "19",
+          "codename": null,
+          "label": "19",
+          "releaseDate": "2022-09-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-03-21",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "19.0.2",
+            "date": "2023-01-17",
+            "link": "https://www.oracle.com/java/technologies/javase/19-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "18",
+          "codename": null,
+          "label": "18",
+          "releaseDate": "2022-03-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-09-20",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "18.0.2.1",
+            "date": "2022-08-18",
+            "link": "https://www.oracle.com/java/technologies/javase/18-0-2-1-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "17",
+          "codename": null,
+          "label": "17 (LTS)",
+          "releaseDate": "2021-09-14",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2026-09-30",
+          "isEoes": false,
+          "eoesFrom": "2029-09-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "17.0.15",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/17-0-15-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "16",
+          "codename": null,
+          "label": "16",
+          "releaseDate": "2021-03-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-09-14",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "16.0.2",
+            "date": "2021-07-20",
+            "link": "https://www.oracle.com/java/technologies/javase/16-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "15",
+          "codename": null,
+          "label": "15",
+          "releaseDate": "2020-09-15",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-03-16",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "15.0.2",
+            "date": "2021-01-19",
+            "link": "https://www.oracle.com/java/technologies/javase/15-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "14",
+          "codename": null,
+          "label": "14",
+          "releaseDate": "2020-03-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-09-16",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "14.0.2",
+            "date": "2020-07-14",
+            "link": "https://www.oracle.com/java/technologies/javase/14-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "13",
+          "codename": null,
+          "label": "13",
+          "releaseDate": "2019-09-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-03-17",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "13.0.2",
+            "date": "2020-01-14",
+            "link": "https://www.oracle.com/java/technologies/javase/13-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "12",
+          "codename": null,
+          "label": "12",
+          "releaseDate": "2019-03-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-09-17",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "12.0.2",
+            "date": "2019-07-16",
+            "link": "https://www.oracle.com/java/technologies/javase/12-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "11",
+          "codename": null,
+          "label": "11 (LTS)",
+          "releaseDate": "2018-09-25",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-09-30",
+          "isEoes": false,
+          "eoesFrom": "2032-01-31",
+          "isMaintained": true,
+          "latest": {
+            "name": "11.0.27",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/11-0-27-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "10",
+          "codename": null,
+          "label": "10",
+          "releaseDate": "2018-03-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-09-25",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "10.0.2",
+            "date": "2018-07-17",
+            "link": "https://www.oracle.com/java/technologies/javase/10-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "9",
+          "codename": null,
+          "label": "9",
+          "releaseDate": "2017-09-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-03-20",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "9.0.4",
+            "date": "2018-01-16",
+            "link": "https://www.oracle.com/java/technologies/javase/9-0-4-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "8",
+          "codename": null,
+          "label": "8 (LTS)",
+          "releaseDate": "2014-03-18",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-03-31",
+          "isEoes": false,
+          "eoesFrom": "2030-12-31",
+          "isMaintained": true,
+          "latest": {
+            "name": "8u451",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/8u451-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "7",
+          "codename": null,
+          "label": "7 (LTS)",
+          "releaseDate": "2011-07-11",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-07-31",
+          "isEoes": true,
+          "eoesFrom": "2022-07-19",
+          "isMaintained": false,
+          "latest": {
+            "name": "7u351",
+            "date": "2022-07-19",
+            "link": "https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361"
+          },
+          "custom": null
+        },
+        {
+          "name": "6",
+          "codename": null,
+          "label": "6",
+          "releaseDate": "2006-12-12",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-12-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "6u211",
+            "date": "2018-10-16",
+            "link": "https://www.oracle.com/java/technologies/javase/6u211-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "5",
+          "releaseDate": "2004-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2009-10-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "5.0u85",
+            "date": "2015-04-14",
+            "link": "https://www.oracle.com/java/technologies/javase/advancedv5-support-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.4",
+          "codename": null,
+          "label": "1.4",
+          "releaseDate": "2002-02-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2008-10-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.4.2_42",
+            "date": "2013-02-19",
+            "link": "https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.3",
+          "codename": null,
+          "label": "1.3",
+          "releaseDate": "2000-05-08",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2006-03-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.3.1_32",
+            "date": "2011-10-18",
+            "link": "https://www.oracle.com/java/technologies/javase/releasenote-v131.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.2",
+          "codename": null,
+          "label": "1.2",
+          "releaseDate": "1998-12-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2003-11-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.2.2_18",
+            "date": "2007-01-12",
+            "link": "https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.1",
+          "codename": null,
+          "label": "1.1",
+          "releaseDate": "1997-02-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2002-10-09",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.1.8_010",
+            "date": "2002-10-09",
+            "link": null
+          },
+          "custom": null
+        },
+        {
+          "name": "1.0",
+          "codename": null,
+          "label": "1.0",
+          "releaseDate": "1996-01-23",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "1996-05-07",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.0.2",
+            "date": "1996-05-07",
+            "link": null
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "apache-maven": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-20T01:28:33+00:00",
+    "result": {
+      "name": "apache-maven",
+      "aliases": [
+        "maven",
+        "mvn"
+      ],
+      "label": "Apache Maven",
+      "category": "app",
+      "tags": [
+        "apache",
+        "app",
+        "build-tool",
+        "java-runtime"
+      ],
+      "versionCommand": "mvn --version",
+      "identifiers": [
+        {
+          "type": "repology",
+          "id": "maven"
+        },
+        {
+          "type": "cpe",
+          "id": "cpe:/a:apache:maven"
+        },
+        {
+          "type": "cpe",
+          "id": "cpe:2.3:a:apache:maven"
+        },
+        {
+          "type": "repology",
+          "id": "maven-shared-utils"
+        },
+        {
+          "type": "cpe",
+          "id": "cpe:/a:apache:maven_shared_utils"
+        },
+        {
+          "type": "cpe",
+          "id": "cpe:2.3:a:apache:maven_shared_utils"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "Support",
+        "eoes": null
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/apachemaven.svg",
+        "html": "https://endoflife.date/apache-maven",
+        "releasePolicy": "https://maven.apache.org/docs/history.html"
+      },
+      "releases": [
+        {
+          "name": "3.9",
+          "codename": null,
+          "label": "3.9",
+          "releaseDate": "2023-01-31",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "3.9.10",
+            "date": "2025-06-01",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.9.10"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.8",
+          "codename": null,
+          "label": "3.8",
+          "releaseDate": "2021-03-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "3.8.9",
+            "date": "2025-06-14",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.8.9"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.6",
+          "codename": null,
+          "label": "3.6",
+          "releaseDate": "2018-10-24",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-03-30",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.6.3",
+            "date": "2019-11-19",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.6.3"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.5",
+          "codename": null,
+          "label": "3.5",
+          "releaseDate": "2017-04-03",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-10-24",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.5.4",
+            "date": "2018-06-17",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.5.4"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.3",
+          "codename": null,
+          "label": "3.3",
+          "releaseDate": "2015-03-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2017-04-03",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.3.9",
+            "date": "2015-11-10",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.3.9"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.2",
+          "codename": null,
+          "label": "3.2",
+          "releaseDate": "2014-02-14",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2015-03-13",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.2.5",
+            "date": "2014-12-14",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.2.5"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.1",
+          "codename": null,
+          "label": "3.1",
+          "releaseDate": "2013-06-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2014-02-14",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.1.1",
+            "date": "2013-09-17",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.1.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "3.0",
+          "codename": null,
+          "label": "3.0",
+          "releaseDate": "2010-10-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2013-06-28",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.0.5",
+            "date": "2013-02-19",
+            "link": "https://github.com/apache/maven/releases/tag/maven-3.0.5"
+          },
+          "custom": null
+        },
+        {
+          "name": "2",
+          "codename": null,
+          "label": "2",
+          "releaseDate": "2006-05-07",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2014-02-18",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.2.1",
+            "date": "2009-08-06",
+            "link": "https://github.com/apache/maven/releases/tag/maven-2.2.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "1",
+          "codename": null,
+          "label": "1",
+          "releaseDate": "2004-07-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2014-02-18",
+          "isMaintained": false,
+          "latest": {
+            "name": "1.1",
+            "date": "2007-06-25",
+            "link": "https://maven.apache.org/archives/maven-1.x/start/release-notes-LATEST.html"
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "spring-boot": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-20T01:28:33+00:00",
+    "result": {
+      "name": "spring-boot",
+      "aliases": [
+        "springboot"
+      ],
+      "label": "Spring Boot",
+      "category": "framework",
+      "tags": [
+        "framework",
+        "java-runtime",
+        "vmware"
+      ],
+      "versionCommand": null,
+      "identifiers": [
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-web"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-data-mongodb"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-security"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-test"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-amqp"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-websocket"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-undertow"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-webflux"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-aop"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:maven/org.springframework.boot/spring-boot-starter-logging"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:github/spring-projects/spring-boot"
+        },
+        {
+          "type": "repology",
+          "id": "springboot"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "OSS support",
+        "eoes": "Commercial Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/springboot.svg",
+        "html": "https://endoflife.date/spring-boot",
+        "releasePolicy": "https://github.com/spring-projects/spring-boot/wiki/Supported-Versions"
+      },
+      "releases": [
+        {
+          "name": "3.5",
+          "codename": null,
+          "label": "3.5",
+          "releaseDate": "2025-05-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2026-06-30",
+          "isEoes": false,
+          "eoesFrom": "2032-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "3.5.3",
+            "date": "2025-06-19",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v3.5.3"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 24"
+          }
+        },
+        {
+          "name": "3.4",
+          "codename": null,
+          "label": "3.4",
+          "releaseDate": "2024-11-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2025-12-31",
+          "isEoes": false,
+          "eoesFrom": "2026-12-31",
+          "isMaintained": true,
+          "latest": {
+            "name": "3.4.7",
+            "date": "2025-06-19",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v3.4.7"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 24"
+          }
+        },
+        {
+          "name": "3.3",
+          "codename": null,
+          "label": "3.3",
+          "releaseDate": "2024-05-23",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2025-06-30",
+          "isEoes": false,
+          "eoesFrom": "2026-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "3.3.13",
+            "date": "2025-06-19",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v3.3.13"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 23"
+          }
+        },
+        {
+          "name": "3.2",
+          "codename": null,
+          "label": "3.2",
+          "releaseDate": "2023-11-23",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-12-31",
+          "isEoes": false,
+          "eoesFrom": "2025-12-31",
+          "isMaintained": true,
+          "latest": {
+            "name": "3.2.12",
+            "date": "2024-11-21",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v3.2.12"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 21"
+          }
+        },
+        {
+          "name": "3.1",
+          "codename": null,
+          "label": "3.1",
+          "releaseDate": "2023-05-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-06-30",
+          "isEoes": false,
+          "eoesFrom": "2025-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "3.1.12",
+            "date": "2024-05-23",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v3.1.12"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 21"
+          }
+        },
+        {
+          "name": "3.0",
+          "codename": null,
+          "label": "3.0",
+          "releaseDate": "2022-11-24",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-12-31",
+          "isEoes": true,
+          "eoesFrom": "2024-12-31",
+          "isMaintained": false,
+          "latest": {
+            "name": "3.0.13",
+            "date": "2023-11-23",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v3.0.13"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 21"
+          }
+        },
+        {
+          "name": "2.7",
+          "codename": null,
+          "label": "2.7",
+          "releaseDate": "2022-05-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-06-30",
+          "isEoes": false,
+          "eoesFrom": "2029-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "2.7.18",
+            "date": "2023-11-23",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.7.18"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 21"
+          }
+        },
+        {
+          "name": "2.6",
+          "codename": null,
+          "label": "2.6",
+          "releaseDate": "2021-11-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-11-24",
+          "isEoes": true,
+          "eoesFrom": "2024-02-24",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.6.15",
+            "date": "2023-05-18",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.6.15"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 19"
+          }
+        },
+        {
+          "name": "2.5",
+          "codename": null,
+          "label": "2.5",
+          "releaseDate": "2021-05-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-05-19",
+          "isEoes": true,
+          "eoesFrom": "2023-08-24",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.5.15",
+            "date": "2023-05-18",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.5.15"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 18"
+          }
+        },
+        {
+          "name": "2.4",
+          "codename": null,
+          "label": "2.4",
+          "releaseDate": "2020-11-12",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-11-18",
+          "isEoes": true,
+          "eoesFrom": "2023-02-23",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.4.13",
+            "date": "2021-11-18",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.4.13"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 16"
+          }
+        },
+        {
+          "name": "2.3",
+          "codename": null,
+          "label": "2.3",
+          "releaseDate": "2020-05-15",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-05-20",
+          "isEoes": true,
+          "eoesFrom": "2022-08-20",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.3.12",
+            "date": "2021-06-10",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.3.12.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 15"
+          }
+        },
+        {
+          "name": "2.2",
+          "codename": null,
+          "label": "2.2",
+          "releaseDate": "2019-10-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-10-16",
+          "isEoes": true,
+          "eoesFrom": "2022-01-16",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.2.13",
+            "date": "2021-01-14",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.2.13.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 15"
+          }
+        },
+        {
+          "name": "2.1",
+          "codename": null,
+          "label": "2.1",
+          "releaseDate": "2018-10-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-10-30",
+          "isEoes": true,
+          "eoesFrom": "2021-01-30",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.1.18",
+            "date": "2020-10-29",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.1.18.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 12"
+          }
+        },
+        {
+          "name": "2.0",
+          "codename": null,
+          "label": "2.0",
+          "releaseDate": "2018-03-01",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-03-01",
+          "isEoes": true,
+          "eoesFrom": "2020-06-01",
+          "isMaintained": false,
+          "latest": {
+            "name": "2.0.9",
+            "date": "2019-04-03",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v2.0.9.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 9"
+          }
+        },
+        {
+          "name": "1.5",
+          "codename": null,
+          "label": "1.5",
+          "releaseDate": "2017-01-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-08-06",
+          "isEoes": true,
+          "eoesFrom": "2020-11-06",
+          "isMaintained": false,
+          "latest": {
+            "name": "1.5.22",
+            "date": "2019-08-06",
+            "link": "https://github.com/spring-projects/spring-boot/releases/tag/v1.5.22.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "6 - 8"
+          }
+        }
+      ]
+    }
+  },
+  "spring-framework": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-13T01:25:41+00:00",
+    "result": {
+      "name": "spring-framework",
+      "aliases": [
+        "spring"
+      ],
+      "label": "Spring Framework",
+      "category": "framework",
+      "tags": [
+        "framework",
+        "java-runtime",
+        "vmware"
+      ],
+      "versionCommand": null,
+      "identifiers": [],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "OSS support",
+        "eoes": "Commercial Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/spring.svg",
+        "html": "https://endoflife.date/spring-framework",
+        "releasePolicy": "https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions"
+      },
+      "releases": [
+        {
+          "name": "6.2",
+          "codename": null,
+          "label": "6.2",
+          "releaseDate": "2024-11-14",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2026-06-30",
+          "isEoes": false,
+          "eoesFrom": "2032-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "6.2.8",
+            "date": "2025-06-12",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v6.2.8"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 25",
+            "supportedJakartaEEVersions": "9 - 10"
+          }
+        },
+        {
+          "name": "6.1",
+          "codename": null,
+          "label": "6.1",
+          "releaseDate": "2023-11-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2025-06-30",
+          "isEoes": false,
+          "eoesFrom": "2026-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "6.1.21",
+            "date": "2025-06-12",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v6.1.21"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 23",
+            "supportedJakartaEEVersions": "9 - 10"
+          }
+        },
+        {
+          "name": "6.0",
+          "codename": null,
+          "label": "6.0",
+          "releaseDate": "2022-11-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-06-30",
+          "isEoes": false,
+          "eoesFrom": "2025-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "6.0.23",
+            "date": "2024-08-14",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v6.0.23"
+          },
+          "custom": {
+            "supportedJavaVersions": "17 - 21",
+            "supportedJakartaEEVersions": "9 - 10"
+          }
+        },
+        {
+          "name": "5.3",
+          "codename": null,
+          "label": "5.3 (LTS)",
+          "releaseDate": "2020-10-27",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-06-30",
+          "isEoes": false,
+          "eoesFrom": "2029-06-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "5.3.39",
+            "date": "2024-08-14",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v5.3.39"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 21",
+            "supportedJakartaEEVersions": "7 - 8"
+          }
+        },
+        {
+          "name": "5.2",
+          "codename": null,
+          "label": "5.2",
+          "releaseDate": "2019-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-12-31",
+          "isEoes": true,
+          "eoesFrom": "2023-12-31",
+          "isMaintained": false,
+          "latest": {
+            "name": "5.2.25",
+            "date": "2023-07-13",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v5.2.25.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 11",
+            "supportedJakartaEEVersions": "N/A"
+          }
+        },
+        {
+          "name": "5.1",
+          "codename": null,
+          "label": "5.1",
+          "releaseDate": "2018-09-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-12-31",
+          "isEoes": true,
+          "eoesFrom": "2022-12-31",
+          "isMaintained": false,
+          "latest": {
+            "name": "5.1.20",
+            "date": "2020-12-09",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v5.1.20.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8 - 11",
+            "supportedJakartaEEVersions": "N/A"
+          }
+        },
+        {
+          "name": "5.0",
+          "codename": null,
+          "label": "5.0",
+          "releaseDate": "2017-09-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-12-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "5.0.20",
+            "date": "2020-12-09",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v5.0.20.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "8",
+            "supportedJakartaEEVersions": "N/A"
+          }
+        },
+        {
+          "name": "4.3",
+          "codename": null,
+          "label": "4.3",
+          "releaseDate": "2016-06-10",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-12-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "4.3.30",
+            "date": "2020-12-09",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v4.3.30.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "6 - 8",
+            "supportedJakartaEEVersions": "N/A"
+          }
+        },
+        {
+          "name": "3.2",
+          "codename": null,
+          "label": "3.2",
+          "releaseDate": "2012-12-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2016-12-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "3.2.18",
+            "date": "2016-12-21",
+            "link": "https://github.com/spring-projects/spring-framework/releases/tag/v3.2.18.RELEASE"
+          },
+          "custom": {
+            "supportedJavaVersions": "5 - 6",
+            "supportedJakartaEEVersions": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  "liquibase": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-09T12:25:49+00:00",
+    "result": {
+      "name": "liquibase",
+      "aliases": [],
+      "label": "Liquibase",
+      "category": "framework",
+      "tags": [
+        "framework",
+        "java-runtime"
+      ],
+      "versionCommand": "liquibase --version",
+      "identifiers": [
+        {
+          "type": "repology",
+          "id": "liquibase"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "Security Support",
+        "eoes": null
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/liquibase.svg",
+        "html": "https://endoflife.date/liquibase",
+        "releasePolicy": null
+      },
+      "releases": [
+        {
+          "name": "4.32",
+          "codename": null,
+          "label": "4.32",
+          "releaseDate": "2025-05-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "4.32.0",
+            "date": "2025-05-21",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.32.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.31",
+          "codename": null,
+          "label": "4.31",
+          "releaseDate": "2025-01-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2025-05-21",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.31.1",
+            "date": "2025-02-17",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.31.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.30",
+          "codename": null,
+          "label": "4.30",
+          "releaseDate": "2024-11-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2025-01-16",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.30.0",
+            "date": "2024-11-05",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.30.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.29",
+          "codename": null,
+          "label": "4.29",
+          "releaseDate": "2024-07-25",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2025-01-06",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.29.2",
+            "date": "2024-09-04",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.29.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.28",
+          "codename": null,
+          "label": "4.28",
+          "releaseDate": "2024-05-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-07-25",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.28.0",
+            "date": "2024-05-21",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.28.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.27",
+          "codename": null,
+          "label": "4.27",
+          "releaseDate": "2024-03-27",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-05-21",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.27.0",
+            "date": "2024-03-27",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.27.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.26",
+          "codename": null,
+          "label": "4.26",
+          "releaseDate": "2024-02-07",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-03-27",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.26.0",
+            "date": "2024-02-07",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.26.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.25",
+          "codename": null,
+          "label": "4.25",
+          "releaseDate": "2023-11-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-02-07",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.25.1",
+            "date": "2023-12-18",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.25.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.24",
+          "codename": null,
+          "label": "4.24",
+          "releaseDate": "2023-10-03",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-11-13",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.24.0",
+            "date": "2023-10-03",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.24.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.23",
+          "codename": null,
+          "label": "4.23",
+          "releaseDate": "2023-06-26",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-10-03",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.23.2",
+            "date": "2023-09-11",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.23.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.22",
+          "codename": null,
+          "label": "4.22",
+          "releaseDate": "2023-05-11",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-06-26",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.22.0",
+            "date": "2023-05-11",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.22.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.21",
+          "codename": null,
+          "label": "4.21",
+          "releaseDate": "2023-04-12",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-05-19",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.21.1",
+            "date": "2023-04-14",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.21.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.20",
+          "codename": null,
+          "label": "4.20",
+          "releaseDate": "2023-03-08",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-04-13",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.20.0",
+            "date": "2023-03-08",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.20.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.19",
+          "codename": null,
+          "label": "4.19",
+          "releaseDate": "2023-01-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-03-08",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.19.1",
+            "date": "2023-03-01",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.19.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.18",
+          "codename": null,
+          "label": "4.18",
+          "releaseDate": "2022-12-06",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-01-17",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.18.0",
+            "date": "2022-12-06",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.18.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.17",
+          "codename": null,
+          "label": "4.17",
+          "releaseDate": "2022-10-10",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-12-06",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.17.2",
+            "date": "2022-11-02",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.17.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.16",
+          "codename": null,
+          "label": "4.16",
+          "releaseDate": "2022-09-09",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-10-10",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.16.1",
+            "date": "2022-09-14",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.16.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.15",
+          "codename": null,
+          "label": "4.15",
+          "releaseDate": "2022-08-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-09-09",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.15.0",
+            "date": "2022-08-05",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.15.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.14",
+          "codename": null,
+          "label": "4.14",
+          "releaseDate": "2022-07-25",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-08-05",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.14.0",
+            "date": "2022-07-25",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.14.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.13",
+          "codename": null,
+          "label": "4.13",
+          "releaseDate": "2022-07-11",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-07-25",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.13.0",
+            "date": "2022-07-11",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.13.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.12",
+          "codename": null,
+          "label": "4.12",
+          "releaseDate": "2022-06-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-07-11",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.12.0",
+            "date": "2022-06-17",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.12.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.11",
+          "codename": null,
+          "label": "4.11",
+          "releaseDate": "2022-05-24",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-06-17",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.11.0",
+            "date": "2022-05-24",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.11.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.10",
+          "codename": null,
+          "label": "4.10",
+          "releaseDate": "2022-05-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-05-24",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.10.0",
+            "date": "2022-05-05",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.10.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.9",
+          "codename": null,
+          "label": "4.9",
+          "releaseDate": "2022-03-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-05-05",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.9.1",
+            "date": "2022-03-29",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.9.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.8",
+          "codename": null,
+          "label": "4.8",
+          "releaseDate": "2022-02-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-03-17",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.8.0",
+            "date": "2022-02-22",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.8.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.7",
+          "codename": null,
+          "label": "4.7",
+          "releaseDate": "2022-01-10",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-02-22",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.7.1",
+            "date": "2022-01-21",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.7.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.6",
+          "codename": null,
+          "label": "4.6",
+          "releaseDate": "2021-11-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-01-10",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.6.2",
+            "date": "2021-12-02",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.6.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.5",
+          "codename": null,
+          "label": "4.5",
+          "releaseDate": "2021-09-27",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-11-04",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.5.0",
+            "date": "2021-09-27",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.5.0"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.4",
+          "codename": null,
+          "label": "4.4",
+          "releaseDate": "2021-06-09",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-09-27",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.4.3",
+            "date": "2021-08-05",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.4.3"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.3",
+          "codename": null,
+          "label": "4.3",
+          "releaseDate": "2021-02-09",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-06-10",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.3.5",
+            "date": "2021-04-29",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.3.5"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.2",
+          "codename": null,
+          "label": "4.2",
+          "releaseDate": "2020-11-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-02-09",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.2.2",
+            "date": "2020-12-09",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.2.2"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.1",
+          "codename": null,
+          "label": "4.1",
+          "releaseDate": "2020-09-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-11-13",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.1.1",
+            "date": "2020-10-12",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.1.1"
+          },
+          "custom": null
+        },
+        {
+          "name": "4.0",
+          "codename": null,
+          "label": "4.0",
+          "releaseDate": "2020-07-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-09-28",
+          "isMaintained": false,
+          "latest": {
+            "name": "4.0.0",
+            "date": "2020-07-13",
+            "link": "https://github.com/liquibase/liquibase/releases/tag/v4.0.0"
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "oracle-jdk": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-06-07T15:24:47+00:00",
+    "result": {
+      "name": "oracle-jdk",
+      "aliases": [
+        "oracle-java",
+        "java",
+        "jdk"
+      ],
+      "label": "Oracle JDK",
+      "category": "lang",
+      "tags": [
+        "java-distribution",
+        "lang",
+        "oracle"
+      ],
+      "versionCommand": "java -version",
+      "identifiers": [
+        {
+          "type": "cpe",
+          "id": "cpe:/a:oracle:jdk"
+        },
+        {
+          "type": "cpe",
+          "id": "cpe:2.3:a:oracle:jdk"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "Premier Support",
+        "eoes": "Extended Support"
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/oracle.svg",
+        "html": "https://endoflife.date/oracle-jdk",
+        "releasePolicy": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html"
+      },
+      "releases": [
+        {
+          "name": "24",
+          "codename": null,
+          "label": "24",
+          "releaseDate": "2025-03-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2025-09-16",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": true,
+          "latest": {
+            "name": "24.0.1",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/24all-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "23",
+          "codename": null,
+          "label": "23",
+          "releaseDate": "2024-09-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2025-03-18",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "23.0.2",
+            "date": "2025-01-21",
+            "link": "https://www.oracle.com/java/technologies/javase/23all-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "22",
+          "codename": null,
+          "label": "22",
+          "releaseDate": "2024-03-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-09-17",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "22.0.2",
+            "date": "2024-07-16",
+            "link": "https://www.oracle.com/java/technologies/javase/22-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "21",
+          "codename": null,
+          "label": "21 (LTS)",
+          "releaseDate": "2023-09-19",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2028-09-30",
+          "isEoes": false,
+          "eoesFrom": "2031-09-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "21.0.7",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/21-0-7-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "20",
+          "codename": null,
+          "label": "20",
+          "releaseDate": "2023-03-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-09-19",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "20.0.2",
+            "date": "2023-07-18",
+            "link": "https://www.oracle.com/java/technologies/javase/20-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "19",
+          "codename": null,
+          "label": "19",
+          "releaseDate": "2022-09-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-03-21",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "19.0.2",
+            "date": "2023-01-17",
+            "link": "https://www.oracle.com/java/technologies/javase/19-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "18",
+          "codename": null,
+          "label": "18",
+          "releaseDate": "2022-03-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-09-20",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "18.0.2.1",
+            "date": "2022-08-18",
+            "link": "https://www.oracle.com/java/technologies/javase/18-0-2-1-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "17",
+          "codename": null,
+          "label": "17 (LTS)",
+          "releaseDate": "2021-09-14",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2026-09-30",
+          "isEoes": false,
+          "eoesFrom": "2029-09-30",
+          "isMaintained": true,
+          "latest": {
+            "name": "17.0.15",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/17-0-15-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "16",
+          "codename": null,
+          "label": "16",
+          "releaseDate": "2021-03-16",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-09-14",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "16.0.2",
+            "date": "2021-07-20",
+            "link": "https://www.oracle.com/java/technologies/javase/16-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "15",
+          "codename": null,
+          "label": "15",
+          "releaseDate": "2020-09-15",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-03-16",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "15.0.2",
+            "date": "2021-01-19",
+            "link": "https://www.oracle.com/java/technologies/javase/15-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "14",
+          "codename": null,
+          "label": "14",
+          "releaseDate": "2020-03-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-09-16",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "14.0.2",
+            "date": "2020-07-14",
+            "link": "https://www.oracle.com/java/technologies/javase/14-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "13",
+          "codename": null,
+          "label": "13",
+          "releaseDate": "2019-09-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-03-17",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "13.0.2",
+            "date": "2020-01-14",
+            "link": "https://www.oracle.com/java/technologies/javase/13-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "12",
+          "codename": null,
+          "label": "12",
+          "releaseDate": "2019-03-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-09-17",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "12.0.2",
+            "date": "2019-07-16",
+            "link": "https://www.oracle.com/java/technologies/javase/12-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "11",
+          "codename": null,
+          "label": "11 (LTS)",
+          "releaseDate": "2018-09-25",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-09-30",
+          "isEoes": false,
+          "eoesFrom": "2032-01-31",
+          "isMaintained": true,
+          "latest": {
+            "name": "11.0.27",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/11-0-27-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "10",
+          "codename": null,
+          "label": "10",
+          "releaseDate": "2018-03-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-09-25",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "10.0.2",
+            "date": "2018-07-17",
+            "link": "https://www.oracle.com/java/technologies/javase/10-0-2-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "9",
+          "codename": null,
+          "label": "9",
+          "releaseDate": "2017-09-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-03-20",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "9.0.4",
+            "date": "2018-01-16",
+            "link": "https://www.oracle.com/java/technologies/javase/9-0-4-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "8",
+          "codename": null,
+          "label": "8 (LTS)",
+          "releaseDate": "2014-03-18",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-03-31",
+          "isEoes": false,
+          "eoesFrom": "2030-12-31",
+          "isMaintained": true,
+          "latest": {
+            "name": "8u451",
+            "date": "2025-04-15",
+            "link": "https://www.oracle.com/java/technologies/javase/8u451-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "7",
+          "codename": null,
+          "label": "7 (LTS)",
+          "releaseDate": "2011-07-11",
+          "isLts": true,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2019-07-31",
+          "isEoes": true,
+          "eoesFrom": "2022-07-19",
+          "isMaintained": false,
+          "latest": {
+            "name": "7u351",
+            "date": "2022-07-19",
+            "link": "https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361"
+          },
+          "custom": null
+        },
+        {
+          "name": "6",
+          "codename": null,
+          "label": "6",
+          "releaseDate": "2006-12-12",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-12-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "6u211",
+            "date": "2018-10-16",
+            "link": "https://www.oracle.com/java/technologies/javase/6u211-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "5",
+          "releaseDate": "2004-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2009-10-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "5.0u85",
+            "date": "2015-04-14",
+            "link": "https://www.oracle.com/java/technologies/javase/advancedv5-support-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.4",
+          "codename": null,
+          "label": "1.4",
+          "releaseDate": "2002-02-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2008-10-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.4.2_42",
+            "date": "2013-02-19",
+            "link": "https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.3",
+          "codename": null,
+          "label": "1.3",
+          "releaseDate": "2000-05-08",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2006-03-31",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.3.1_32",
+            "date": "2011-10-18",
+            "link": "https://www.oracle.com/java/technologies/javase/releasenote-v131.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.2",
+          "codename": null,
+          "label": "1.2",
+          "releaseDate": "1998-12-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2003-11-30",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.2.2_18",
+            "date": "2007-01-12",
+            "link": "https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html"
+          },
+          "custom": null
+        },
+        {
+          "name": "1.1",
+          "codename": null,
+          "label": "1.1",
+          "releaseDate": "1997-02-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2002-10-09",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.1.8_010",
+            "date": "2002-10-09",
+            "link": null
+          },
+          "custom": null
+        },
+        {
+          "name": "1.0",
+          "codename": null,
+          "label": "1.0",
+          "releaseDate": "1996-01-23",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "1996-05-07",
+          "isEoes": null,
+          "eoesFrom": null,
+          "isMaintained": false,
+          "latest": {
+            "name": "1.0.2",
+            "date": "1996-05-07",
+            "link": null
+          },
+          "custom": null
+        }
+      ]
+    }
+  },
+  "postgresql": {
+    "schema_version": "1.1.0",
+    "generated_at": "2025-06-20T09:28:39+00:00",
+    "last_modified": "2025-05-07T12:22:06+00:00",
+    "result": {
+      "name": "postgresql",
+      "aliases": [
+        "postgres",
+        "pg",
+        "psql"
+      ],
+      "label": "PostgreSQL",
+      "category": "database",
+      "tags": [
+        "database"
+      ],
+      "versionCommand": "psql -c \"SELECT version();\"",
+      "identifiers": [
+        {
+          "type": "repology",
+          "id": "postgresql"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:generic/postgresql"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:docker/library/postgres"
+        },
+        {
+          "type": "purl",
+          "id": "pkg:deb/ubuntu/postgresql"
+        }
+      ],
+      "labels": {
+        "eoas": null,
+        "discontinued": null,
+        "eol": "Support Status",
+        "eoes": null
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/postgresql.svg",
+        "html": "https://endoflife.date/postgresql",
+        "releasePolicy": "https://www.postgresql.org/support/versioning/"
+      },
+      "releases": [
+        {
+          "name": "17",
+          "codename": null,
+          "label": "17",
+          "releaseDate": "2024-09-26",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2029-11-08",
+          "isMaintained": true,
+          "latest": {
+            "name": "17.5",
+            "date": "2025-05-05",
+            "link": "https://www.postgresql.org/docs/release/17.5/"
+          },
+          "custom": null
+        },
+        {
+          "name": "16",
+          "codename": null,
+          "label": "16",
+          "releaseDate": "2023-09-14",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2028-11-09",
+          "isMaintained": true,
+          "latest": {
+            "name": "16.9",
+            "date": "2025-05-05",
+            "link": "https://www.postgresql.org/docs/release/16.9/"
+          },
+          "custom": null
+        },
+        {
+          "name": "15",
+          "codename": null,
+          "label": "15",
+          "releaseDate": "2022-10-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2027-11-11",
+          "isMaintained": true,
+          "latest": {
+            "name": "15.13",
+            "date": "2025-05-05",
+            "link": "https://www.postgresql.org/docs/release/15.13/"
+          },
+          "custom": null
+        },
+        {
+          "name": "14",
+          "codename": null,
+          "label": "14",
+          "releaseDate": "2021-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2026-11-12",
+          "isMaintained": true,
+          "latest": {
+            "name": "14.18",
+            "date": "2025-05-05",
+            "link": "https://www.postgresql.org/docs/release/14.18/"
+          },
+          "custom": null
+        },
+        {
+          "name": "13",
+          "codename": null,
+          "label": "13",
+          "releaseDate": "2020-09-24",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": false,
+          "eolFrom": "2025-11-13",
+          "isMaintained": true,
+          "latest": {
+            "name": "13.21",
+            "date": "2025-05-05",
+            "link": "https://www.postgresql.org/docs/release/13.21/"
+          },
+          "custom": null
+        },
+        {
+          "name": "12",
+          "codename": null,
+          "label": "12",
+          "releaseDate": "2019-10-03",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2024-11-21",
+          "isMaintained": false,
+          "latest": {
+            "name": "12.22",
+            "date": "2024-11-18",
+            "link": "https://www.postgresql.org/docs/release/12.22/"
+          },
+          "custom": null
+        },
+        {
+          "name": "11",
+          "codename": null,
+          "label": "11",
+          "releaseDate": "2018-10-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-11-09",
+          "isMaintained": false,
+          "latest": {
+            "name": "11.22",
+            "date": "2023-11-06",
+            "link": "https://www.postgresql.org/docs/release/11.22/"
+          },
+          "custom": null
+        },
+        {
+          "name": "10",
+          "codename": null,
+          "label": "10",
+          "releaseDate": "2017-10-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2022-11-10",
+          "isMaintained": false,
+          "latest": {
+            "name": "10.23",
+            "date": "2022-11-07",
+            "link": "https://www.postgresql.org/docs/release/10.23/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.6",
+          "codename": null,
+          "label": "9.6",
+          "releaseDate": "2016-09-29",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-11-11",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.6.24",
+            "date": "2021-11-08",
+            "link": "https://www.postgresql.org/docs/release/9.6.24/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.5",
+          "codename": null,
+          "label": "9.5",
+          "releaseDate": "2016-01-07",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2021-02-11",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.5.25",
+            "date": "2021-02-08",
+            "link": "https://www.postgresql.org/docs/release/9.5.25/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.4",
+          "codename": null,
+          "label": "9.4",
+          "releaseDate": "2014-12-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2020-02-13",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.4.26",
+            "date": "2020-02-10",
+            "link": "https://www.postgresql.org/docs/release/9.4.26/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.3",
+          "codename": null,
+          "label": "9.3",
+          "releaseDate": "2013-09-09",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2018-11-08",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.3.25",
+            "date": "2018-11-05",
+            "link": "https://www.postgresql.org/docs/release/9.3.25/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.2",
+          "codename": null,
+          "label": "9.2",
+          "releaseDate": "2012-09-10",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2017-11-09",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.2.24",
+            "date": "2017-11-06",
+            "link": "https://www.postgresql.org/docs/release/9.2.24/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.1",
+          "codename": null,
+          "label": "9.1",
+          "releaseDate": "2011-09-12",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2016-10-27",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.1.24",
+            "date": "2016-10-24",
+            "link": "https://www.postgresql.org/docs/release/9.1.24/"
+          },
+          "custom": null
+        },
+        {
+          "name": "9.0",
+          "codename": null,
+          "label": "9.0",
+          "releaseDate": "2010-09-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2015-10-08",
+          "isMaintained": false,
+          "latest": {
+            "name": "9.0.23",
+            "date": "2015-10-05",
+            "link": "https://www.postgresql.org/docs/release/9.0.23/"
+          },
+          "custom": null
+        },
+        {
+          "name": "8.4",
+          "codename": null,
+          "label": "8.4",
+          "releaseDate": "2009-07-01",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2014-07-24",
+          "isMaintained": false,
+          "latest": {
+            "name": "8.4.22",
+            "date": "2014-07-21",
+            "link": "https://www.postgresql.org/docs/release/8.4.22/"
+          },
+          "custom": null
+        },
+        {
+          "name": "8.3",
+          "codename": null,
+          "label": "8.3",
+          "releaseDate": "2008-02-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2013-02-07",
+          "isMaintained": false,
+          "latest": {
+            "name": "8.3.23",
+            "date": "2013-02-04",
+            "link": "https://www.postgresql.org/docs/release/8.3.23/"
+          },
+          "custom": null
+        },
+        {
+          "name": "8.2",
+          "codename": null,
+          "label": "8.2",
+          "releaseDate": "2006-12-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2011-12-05",
+          "isMaintained": false,
+          "latest": {
+            "name": "8.2.23",
+            "date": "2011-12-01",
+            "link": "https://www.postgresql.org/docs/release/8.2.23/"
+          },
+          "custom": null
+        },
+        {
+          "name": "8.1",
+          "codename": null,
+          "label": "8.1",
+          "releaseDate": "2005-11-08",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2010-11-08",
+          "isMaintained": false,
+          "latest": {
+            "name": "8.1.23",
+            "date": "2010-12-13",
+            "link": "https://www.postgresql.org/docs/release/8.1.23/"
+          },
+          "custom": null
+        },
+        {
+          "name": "8.0",
+          "codename": null,
+          "label": "8.0",
+          "releaseDate": "2005-01-19",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEol": true,
+          "eolFrom": "2010-10-01",
+          "isMaintained": false,
+          "latest": {
+            "name": "8.0.26",
+            "date": "2010-10-01",
+            "link": "https://www.postgresql.org/docs/release/8.0.26/"
+          },
+          "custom": null
+        }
+      ]
+    }
+  }
+}
