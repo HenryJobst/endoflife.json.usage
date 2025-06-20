@@ -1,0 +1,6 @@
+- name: Check for EOL dependencies
+  run: python check_versions.py
+
+- name: Fail if EOL dependencies exist
+  if: failure()  # Script gibt Exit-Code 1 zurück bei EOL
+  run: echo "There are EOL dependencies!"
