@@ -1,6 +1,29 @@
-- name: Check for EOL dependencies
-  run: python check_versions.py
+name: Check dependencies for End-of-Life
 
-- name: Fail if EOL dependencies exist
-  if: failure()  # Script gibt Exit-Code 1 zurück bei EOL
-  run: echo "There are EOL dependencies!"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 22 * * *"
+  
+jobs:
+  release-endoflife:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch end-of-life data
+        run: python check_versions.py  
+
+      - name: Fail if EOL dependencies exist
+        if: failure()  # Script gibt Exit-Code 1 zurück bei EOL
+        run: echo "There are EOL dependencies!"
