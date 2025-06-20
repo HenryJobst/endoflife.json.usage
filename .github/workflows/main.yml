@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests packaging datetime
 
       - name: Fetch end-of-life data
         run: python check_versions.py  
