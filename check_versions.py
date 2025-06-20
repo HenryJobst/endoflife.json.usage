@@ -160,6 +160,12 @@ def check_maven_versions(path, eol_data):
             "supported_versions": supported_versions,
         }
 
+    # Load excluded dependencies from JSON file
+    with open("excluded_dependencies.json") as f:
+        excluded_combinations = set(
+            (item["group"], item["name"]) for item in json.load(f)
+        )
+
     # Check regular dependencies
     for dep in root.findall(".//m:dependency", ns):
         artifact = dep.find("m:artifactId", ns)
@@ -186,7 +192,8 @@ def check_maven_versions(path, eol_data):
                             ].strip()  # Strip whitespace from resolved version
 
                 if (
-                    name in eol_data
+                    (group_name, name) not in excluded_combinations
+                    and name in eol_data
                     and "result" in eol_data[name]
                     and "releases" in eol_data[name]["result"]
                 ):
